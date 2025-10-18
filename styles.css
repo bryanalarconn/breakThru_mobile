@@ -647,7 +647,7 @@ p {
   transition: var(--transition);
 }
 .social-link i {
-  color: var(--white);
+  color: var(--pure-black);
 }
 .social-link:hover {
   background: var(--neon-green);
