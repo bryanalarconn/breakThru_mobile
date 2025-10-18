@@ -646,7 +646,9 @@ p {
   line-height: 40px;
   transition: var(--transition);
 }
-
+.social-link i {
+  color: var(--white);
+}
 .social-link:hover {
   background: var(--neon-green);
   transform: translateY(-2px);
