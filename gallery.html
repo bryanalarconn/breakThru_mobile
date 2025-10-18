@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery - BreakThru Mobile Detailing</title>
+    <meta name="description" content="View our before and after photo gallery showcasing the amazing transformations we achieve with our professional mobile detailing services.">
+    <meta name="keywords" content="car detailing before after, mobile car wash photos, auto detailing gallery, paint correction results">
+    <meta name="author" content="BreakThru Mobile Detailing">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Photo Gallery - BreakThru Mobile Detailing">
+    <meta property="og:description" content="See the amazing transformations we achieve with our professional mobile detailing services.">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚗</text></svg>">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-car"></i> BreakThru Mobile
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="padding: 6rem 0 3rem;">
+        <div class="hero-content">
+            <h1>Photo Gallery</h1>
+            <p class="tagline">Before & After Transformations</p>
+            <p class="hero-description">See the incredible results we achieve with our professional mobile detailing services. Every vehicle tells a story of transformation.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Filter Section -->
+    <section class="section gallery-filters" style="background: var(--light-gray); padding: 2rem 0;">
+        <div class="container">
+            <div class="filter-buttons" style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                <button class="filter-btn active" data-filter="all" style="padding: 0.75rem 1.5rem; background: var(--electric-blue); color: var(--white); border: none; border-radius: var(--border-radius); cursor: pointer; transition: var(--transition);">All</button>
+                <button class="filter-btn" data-filter="exterior" style="padding: 0.75rem 1.5rem; background: var(--white); color: var(--electric-blue); border: 2px solid var(--electric-blue); border-radius: var(--border-radius); cursor: pointer; transition: var(--transition);">Exterior</button>
+                <button class="filter-btn" data-filter="interior" style="padding: 0.75rem 1.5rem; background: var(--white); color: var(--electric-blue); border: 2px solid var(--electric-blue); border-radius: var(--border-radius); cursor: pointer; transition: var(--transition);">Interior</button>
+                <button class="filter-btn" data-filter="engine" style="padding: 0.75rem 1.5rem; background: var(--white); color: var(--electric-blue); border: 2px solid var(--electric-blue); border-radius: var(--border-radius); cursor: pointer; transition: var(--transition);">Engine Bay</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery">
+        <div class="container">
+            <!-- Exterior Category -->
+            <div class="gallery-category">
+                <h3>Exterior Detailing</h3>
+                <p>Paint correction, ceramic coating, and exterior restoration</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item exterior" data-category="exterior">
+                    <div class="gallery-placeholder">
+                        <div style="text-align: center;">
+                            <i class="fas fa-car" style="font-size: 2rem; margin-bottom: 0.5rem; display: block;"></i>
+                            <strong>Before</strong><br>
+                            <small>Swirl marks & oxidation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item exterior" data-category="exterior">
+                    <div class="gallery-placeholder">
+                        <div style="text-align: center;">
+                            <i class="fas fa-star" style="font-size: 2rem; margin-bottom: 0.5rem; display: block;"></i>
+                            <strong>After</strong><br>
+                            <small>Mirror-like finish</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item exterior" data-category="exterior">
+                    <div class="gallery-placeholder">
+                        <div style="text-align: center;">
+                            <i class="fas fa-car" style="font-size: 2rem; margin-bottom: 0.5rem; display: block;"></i>
+                            <strong>Before</strong><br>
+                            <small>Dull paint & scratches</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item exterior" data-category="exterior">
+                    <div class="gallery-placeholder">
+                        <div style="text-align: center;">
+                            <i class="fas fa-star" style="font-size: 2rem; margin-bottom: 0.5rem; display: block;"></i>
+                            <strong>After</strong><br>
+                            <small>Showroom quality</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item exterior" data-category="exterior">
+                    <div class="gallery-placeholder">
+                        <div style="text-align: center;">
+                            <i class="fas fa-car" style="font-size: 2rem; margin-bottom: 0.5rem; display: block;"></i>
+                            <strong>Before</strong><br>
+                            <small>Faded headlights</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item exterior" data-category="exterior">
+                    <div class="gallery-placeholder">
+                        <div style="text-align: center;">
+                            <i class="fas fa-star" style="font-size: 2rem; margin-bottom: 0.5rem; display: block;"></i>
+                            <strong>After</strong><br>
+                            <small>Crystal clear</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interior Category -->
+            <div class="gallery-category">
+                <h3>Interior Detailing</h3>
+                <p>Deep cleaning, leather conditioning, and interior restoration</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item interior" data-category="interior">
+                    <div class="gallery-placeholder">
+                        <div style="text-align: center;">
+                            <i class="fas fa-couch" style="font-size: 2rem; margin-bottom: 0.5rem; display: block;"></i>
+                            <strong>Before</strong><br>
+                            <small>Stained seats</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item interior" data-category="interior">
+                    <div class="gallery-placeholder">
+                        <div style="text-align: center;">
+                            <i class="fas fa-star" style="font-size: 2rem; margin-bottom: 0.5rem; display: block;"></i>
+                            <strong>After</strong><br>
+                            <small>Like new condition</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item interior" data-category="interior">
+                    <div class="gallery-placeholder">
+                        <div style="text-align: center;">
+                            <i class="fas fa-couch" style="font-size: 2rem; margin-bottom: 0.5rem; display: block;"></i>
+                            <strong>Before</strong><br>
+                            <small>Pet hair & dirt</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item interior" data-category="interior">
+                    <div class="gallery-placeholder">
+                        <div style="text-align: center;">
+                            <i class="fas fa-star" style="font-size: 2rem; margin-bottom: 0.5rem; display: block;"></i>
+                            <strong>After</strong><br>
+                            <small>Spotless clean</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item interior" data-category="interior">
+                    <div class="gallery-placeholder">
+                        <div style="text-align: center;">
+                            <i class="fas fa-couch" style="font-size: 2rem; margin-bottom: 0.5rem; display: block;"></i>
+                            <strong>Before</strong><br>
+                            <small>Worn leather</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item interior" data-category="interior">
+                    <div class="gallery-placeholder">
+                        <div style="text-align: center;">
+                            <i class="fas fa-star" style="font-size: 2rem; margin-bottom: 0.5rem; display: block;"></i>
+                            <strong>After</strong><br>
+                            <small>Restored & protected</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Engine Bay Category -->
+            <div class="gallery-category">
+                <h3>Engine Bay Detailing</h3>
+                <p>Deep cleaning and protection of your vehicle's engine compartment</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item engine" data-category="engine">
+                    <div class="gallery-placeholder">
+                        <div style="text-align: center;">
+                            <i class="fas fa-cogs" style="font-size: 2rem; margin-bottom: 0.5rem; display: block;"></i>
+                            <strong>Before</strong><br>
+                            <small>Grease & grime</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item engine" data-category="engine">
+                    <div class="gallery-placeholder">
+                        <div style="text-align: center;">
+                            <i class="fas fa-star" style="font-size: 2rem; margin-bottom: 0.5rem; display: block;"></i>
+                            <strong>After</strong><br>
+                            <small>Spotless & protected</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item engine" data-category="engine">
+                    <div class="gallery-placeholder">
+                        <div style="text-align: center;">
+                            <i class="fas fa-cogs" style="font-size: 2rem; margin-bottom: 0.5rem; display: block;"></i>
+                            <strong>Before</strong><br>
+                            <small>Corrosion & buildup</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item engine" data-category="engine">
+                    <div class="gallery-placeholder">
+                        <div style="text-align: center;">
+                            <i class="fas fa-star" style="font-size: 2rem; margin-bottom: 0.5rem; display: block;"></i>
+                            <strong>After</strong><br>
+                            <small>Showroom condition</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section process" style="background: var(--light-gray);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Detailing Process</h2>
+                <p>See how we achieve these amazing transformations</p>
+            </div>
+            <div class="process-steps" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem;">
+                <div class="process-step" style="text-align: center; padding: 2rem; background: var(--white); border-radius: var(--border-radius); box-shadow: var(--box-shadow);">
+                    <div class="step-icon" style="font-size: 3rem; color: var(--electric-blue); margin-bottom: 1rem;">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Assessment</h3>
+                    <p>We thoroughly inspect your vehicle to identify areas that need attention and create a customized treatment plan.</p>
+                </div>
+                <div class="process-step" style="text-align: center; padding: 2rem; background: var(--white); border-radius: var(--border-radius); box-shadow: var(--box-shadow);">
+                    <div class="step-icon" style="font-size: 3rem; color: var(--electric-blue); margin-bottom: 1rem;">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Preparation</h3>
+                    <p>We use professional-grade equipment and premium products to prepare your vehicle for the detailing process.</p>
+                </div>
+                <div class="process-step" style="text-align: center; padding: 2rem; background: var(--white); border-radius: var(--border-radius); box-shadow: var(--box-shadow);">
+                    <div class="step-icon" style="font-size: 3rem; color: var(--electric-blue); margin-bottom: 1rem;">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Transformation</h3>
+                    <p>Our skilled technicians work meticulously to restore your vehicle to its original beauty using proven techniques.</p>
+                </div>
+                <div class="process-step" style="text-align: center; padding: 2rem; background: var(--white); border-radius: var(--border-radius); box-shadow: var(--box-shadow);">
+                    <div class="step-icon" style="font-size: 3rem; color: var(--electric-blue); margin-bottom: 1rem;">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Quality Check</h3>
+                    <p>We perform a final inspection to ensure every detail meets our high standards before considering the job complete.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta" style="background: var(--primary-dark); color: var(--white); text-align: center;">
+        <div class="container">
+            <h2 style="color: var(--white); margin-bottom: 1rem;">Ready for Your Own Transformation?</h2>
+            <p style="font-size: 1.125rem; margin-bottom: 2rem; color: var(--light-gray);">Let us transform your vehicle with the same professional care and attention to detail shown in our gallery.</p>
+            <div class="hero-buttons">
+                <a href="tel:5551234567" class="btn btn-large">Call (555) 123-4567</a>
+                <a href="services.html" class="btn btn-secondary btn-large">View Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BreakThru Mobile Detailing</h3>
+                    <p>Professional car care delivered to your door. Experience the convenience of premium automotive detailing without leaving your home.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Yelp">
+                            <i class="fab fa-yelp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="services.html">Services & Pricing</a></p>
+                    <p><a href="testimonials.html">Testimonials</a></p>
+                    <p><a href="gallery.html">Gallery</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-phone"></i> <a href="tel:5551234567">(555) 123-4567</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:info@shineandgo.com">info@shineandgo.com</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Los Angeles, CA</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BreakThru Mobile Detailing. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
